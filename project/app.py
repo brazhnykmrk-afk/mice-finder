@@ -21,7 +21,7 @@ def home():
         budget = int(request.form["budget"])
         wireless = request.form["wireless"]
         hand_size = request.form["hand_size"]
-        comfort = request.form["comfort"]
+        comfort = request.form.get("comfort", "any")
 
         best_mouse = None
         best_score = -1
