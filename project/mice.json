@@ -88,7 +88,7 @@
     "hand_size": ["medium", "large"],
     "grip": ["palm"],
     "recommended_for": ["general_gaming", "productivity"],
-    "image": "Logitech G502 X.jpg"
+    "image": "images/Logitech G502 X.jpg"
   },
   {
     "id": 8,
@@ -271,7 +271,7 @@
     "hand_size": ["medium", "large"],
     "grip": ["palm"],
     "recommended_for": ["fps", "esports"],
-    "image": "Zowie EC2-CW.jpg"
+    "image": "images/Zowie EC2-CW.jpg"
   },
   {
     "id": 22,
