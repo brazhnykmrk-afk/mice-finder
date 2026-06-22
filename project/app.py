@@ -45,6 +45,14 @@ def home():
             elif wireless == str(mouse["wireless"]).lower():
                 score += 3
 
+            if comfort == "ergonomic":
+                if mouse["category"] == "ergonomic":
+                    score += 4
+
+            if comfort == "lightweight":
+                if mouse["weight_class"] in ["light", "ultralight"]:
+                    score += 4
+
             if score > best_score:
                 best_score = score
                 best_mouse = mouse
